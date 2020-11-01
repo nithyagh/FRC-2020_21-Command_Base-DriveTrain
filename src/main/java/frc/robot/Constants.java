@@ -24,4 +24,15 @@ public final class Constants {
         public static int rightFrontMotorPort = 2;
         public static int rightBackMotorPort = 3;
     }
+
+    public static final class Joystick{
+        public static final int port = 0;
+        
+        public static final int leftStickXAxis = 0;
+        public static final int leftStickYAxis = 1;
+        public static final int rightStickXAxis = 2;
+        public static final int rightStickYAxis = 3;
+    }
+
+
 }
