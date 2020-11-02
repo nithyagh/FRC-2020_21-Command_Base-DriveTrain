@@ -34,5 +34,12 @@ public final class Constants {
         public static final int rightStickYAxis = 3;
     }
 
+    public static final class Autonomous{
+        public static final double driveForwardTime = 5.0; // in seconds
+        public static final double driveForwardSpeed = 0.5; // half speed
+        public static final double driveForwardTurn = 0; 
+    
+    }
+
 
 }
